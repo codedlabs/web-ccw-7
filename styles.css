@@ -1,0 +1,28 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 0.25rem 0.5rem;
+  border: 3px solid #fefefe;
+  border-radius: 7px;
+  color: #fefefe;
+  font-size: 1.5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.greyButton {
+  background: grey;
+}
+
+.navyButton {
+  background: navy;
+}
+
+.blueButton {
+  background: blue;
+}
