@@ -27,7 +27,8 @@
 قم بالاستعانة بالكود التالي في طباعة نوع العدد:
 
 ```ruby
-document.getElementById("numberType").innerHTML = number + " هو عدد زوجي";
+document.getElementById("numberType").innerHTML =
+number + " هو عدد زوجي";
 ```
 
 ### السؤال الثاني - عدّاد التقدم １２３ 🏎🔝
