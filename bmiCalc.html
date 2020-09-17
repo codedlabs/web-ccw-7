@@ -43,9 +43,9 @@
     </div>
     <script>
       function getBMI() {
-        var height = document.getElementById("height").value;
-        var weight = document.getElementById("weight").value;
-        var BMI = weight / (height * height);
+        let height = document.getElementById("height").value;
+        let weight = document.getElementById("weight").value;
+        let BMI = weight / (height * height);
         console.log(height, weight, BMI);
         if (BMI < 20) {
           document.getElementById("status").innerHTML = "أنت نحيف للغاية";
